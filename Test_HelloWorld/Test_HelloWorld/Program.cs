@@ -10,9 +10,11 @@ namespace Test_HelloWorld
     {
         static void Main(string[] args)
         {
+            string naam;
             Console.WriteLine("version 0.1.1");
             //here comes the logic
-            Console.WriteLine("Hello world");
+            naam = Console.ReadLine();
+            Console.WriteLine("Hello " + naam);
             Console.ReadLine();
         }
     }
