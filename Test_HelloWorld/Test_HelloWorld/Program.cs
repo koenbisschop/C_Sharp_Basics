@@ -12,7 +12,7 @@ namespace Test_HelloWorld
         {
             Console.WriteLine("version 0.1.1");
             //here comes the logic
-
+            Console.WriteLine("Hello world");
             Console.ReadLine();
         }
     }
