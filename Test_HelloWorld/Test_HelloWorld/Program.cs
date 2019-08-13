@@ -17,7 +17,7 @@ namespace Test_HelloWorld
             Console.WriteLine("Geef je leeftijd op=:");
             leeftijd = Convert.ToInt32(Console.ReadLine());
             naam = Console.ReadLine();
-            Console.WriteLine("Hello " + naam + "ç" + leeftijd.ToString() + ")");
+            Console.WriteLine("Hello " + naam + " (" + leeftijd.ToString() + ")");
             Console.ReadLine();
         }
     }
