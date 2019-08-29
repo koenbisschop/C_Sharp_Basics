@@ -13,6 +13,7 @@ namespace Test_HelloWorld
             string naam;
             Console.WriteLine("version 0.1.1");
             //here comes the logic
+            //aanpassing extra commit
             Console.WriteLine("Geef je voornaam:");
             naam = Console.ReadLine();
             Console.WriteLine("Hello " + naam);
